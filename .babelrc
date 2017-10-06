@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "@oigroup/babel-preset-lightscript",
+      {
+        "env": false,
+        "stdlib": {
+          "require": true
+        },
+        "noEnforcedSubscriptIndentation": true,
+        "existential": true,
+        "useRequire": true,
+        "disableJsx": true,
+        "pipeCall": true
+      }
+    ]
+  ]
+}

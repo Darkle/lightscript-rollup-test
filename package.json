@@ -1,0 +1,25 @@
+{
+  "name": "lightscript-rollup-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkle/lightscript-rollup-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darkle/lightscript-rollup-test/issues"
+  },
+  "homepage": "https://github.com/Darkle/lightscript-rollup-test#readme",
+  "devDependencies": {
+    "@oigroup/babel-preset-lightscript": "^3.0.0-alpha.4",
+    "babel-core": "^6.26.0",
+    "rollup": "^0.50.0",
+    "rollup-plugin-babel": "^3.0.2"
+  }
+}
